@@ -14,6 +14,5 @@ RUN apt update && \
 		git clone https://github.com/microsoft/vcpkg.git && \
 		cd vcpkg && \
 		./bootstrap-vcpkg.sh && \
-		./vcpkg install eigen3 && \
-		cd 
+		./vcpkg install eigen3
 
