@@ -5,7 +5,10 @@ This docker environment is to build & run C/C++ codes.
 ## Build & Run 
 
 ```
-$ docker build -t ubuntu:$TAG .
+# example
+## IMAGENAME=ubuntu
+## TAG=1.0
+$ docker build -t $IMAGENAME:$TAG .
 $ docker run -v path/to/project:/home/root --rm -ti ubuntu:$TAG
 ```
 
