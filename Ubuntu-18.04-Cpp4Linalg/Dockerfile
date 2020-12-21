@@ -1,4 +1,5 @@
 FROM ubuntu:18.04
+LABEL maintainer="Mutsuhiro Iwamoto <mutsuhiro6@icloud.com>"
 RUN apt update && \
 		apt -y upgrade && \
 		apt install -y build-essential git tar curl zip unzip wget pkg-config && \
